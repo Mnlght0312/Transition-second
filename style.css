@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 60%;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    background-color: lightblue;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    font-size: 36px;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    transition: 2s;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+}
+.text:hover {
+    background-color: chocolate;
+    padding: 40px 0px;
+
+}
+a:hover {
+    font-size: 50px;
+    
+}
